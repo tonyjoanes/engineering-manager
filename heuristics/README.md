@@ -5,6 +5,7 @@ Decision-making principles and rules of thumb that have proven valuable in engin
 ## Categories
 
 ### Engineering Decisions
+- [Elon Musk's 5-Step Engineering Process](./musk-engineering-principles.md)
 - [Technical Decision Making](./technical-decisions.md)
 - [Architecture Choices](./architecture.md)
 - [Balancing Speed vs Quality](./speed-vs-quality.md)
