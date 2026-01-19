@@ -19,6 +19,9 @@ Decision-making principles and rules of thumb that have proven valuable in engin
 - [Root Cause Analysis](./root-cause.md)
 - [When to Escalate](./escalation.md)
 
+### Meetings & Communication
+- [Design Meeting Participation](./design-meetings.md)
+
 ## Quick Heuristics
 
 Add your go-to rules of thumb here:
