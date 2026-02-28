@@ -116,6 +116,10 @@ Effective delegation:
 
 **"I'm overwhelmed with requests..."** → [Strategic Prompts: Saying No](strategic-prompts.md#saying-no)
 
+**"Squads ask when their work will get done..."** → [Platform Prompts: Team Capacity Planning](platform-prompts.md#team-capacity-planning)
+
+**"My team is overloaded and I need more headcount..."** → [Platform Prompts: Capacity Overload Escalation](platform-prompts.md#capacity-overload-escalation)
+
 ## Prompt Template Structure
 
 Each prompt in this bank follows this structure:

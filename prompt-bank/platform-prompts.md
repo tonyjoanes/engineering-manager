@@ -553,6 +553,101 @@ Reference the platform engineering & DevEx guide for good platform capabilities,
 
 ---
 
+## Team Capacity Planning
+
+**When to Use:** Stakeholders ask when their work will be done, demand is exceeding capacity, or you need to structure how work is scheduled across multiple squads.
+
+**Related Resources:**
+- [Capacity Planning & Scheduling](../practices/capacity-planning-scheduling.md)
+- [Planning & Prioritization](../practices/planning-prioritization.md)
+- [Stakeholder Management](../leadership/stakeholder-management.md)
+
+**The Prompt:**
+```
+My Platform/DevOps team serves multiple squads and I'm struggling to manage demand fairly and give stakeholders clear answers about when work will get done.
+
+Current situation:
+- Team size: [number of engineers]
+- Squads we serve: [list squads and their typical request volume]
+- Current intake process: [ad hoc / some structure / formal]
+- Biggest pain points: [everything feels urgent / stakeholders unhappy / team overwhelmed / no visibility into queue]
+- Current capacity split: [do you know where time goes?]
+- Unplanned work level: [how often does unplanned work disrupt plans?]
+
+Help me design a capacity planning system:
+1. Calculate true available capacity (accounting for operational, support, overhead)
+2. Design a work intake and classification model (Critical / Urgent / Standard)
+3. Define SLA commitments for each request class
+4. Create an allocation model across squads and work types
+5. Build a queue management approach with honest wait time communication
+6. Design a monthly stakeholder update to maintain trust
+7. Identify metrics to track capacity health
+
+Reference the capacity planning & scheduling guide for frameworks and templates.
+```
+
+**Expected Output:**
+- True capacity calculation with realistic deductions
+- Work classification system with SLA tiers
+- Capacity allocation model (% per work type)
+- Queue management approach with wait time formula
+- Stakeholder communication templates
+- Capacity health metrics dashboard
+
+**Follow-Up Actions:**
+- Set up intake backlog in Azure DevOps/Jira
+- Publish SLAs on team wiki
+- Run first weekly triage
+- Send first monthly capacity snapshot
+- Track metrics for 2-3 sprints to establish baseline
+
+---
+
+## Capacity Overload Escalation
+
+**When to Use:** Demand is consistently exceeding your team's capacity and you need to escalate to leadership for more headcount or priority trade-offs.
+
+**Related Resources:**
+- [Capacity Planning & Scheduling](../practices/capacity-planning-scheduling.md) - Demand forecasting and escalation sections
+- [Stakeholder Management](../leadership/stakeholder-management.md) - Managing up
+
+**The Prompt:**
+```
+My Platform/DevOps team is consistently overloaded and I need to escalate to leadership.
+
+The data:
+- Team capacity (planned work): [X hours/sprint]
+- Average demand: [X hours/sprint]
+- Deficit per sprint: [X hours]
+- Duration of overload: [X months]
+- Queue: [X items, oldest is X weeks]
+- SLA compliance: [X% vs target X%]
+- Impact: [describe blocked squads, delayed releases, or team burnout signs]
+
+I need to:
+1. Build a clear business case showing the supply/demand gap
+2. Present options (hire / reduce scope / self-service investment / prioritise only X squads)
+3. Communicate impact of inaction
+4. Get a leadership decision
+
+Help me prepare for this escalation conversation using the capacity planning guide frameworks.
+```
+
+**Expected Output:**
+- Business case with data-backed narrative
+- Options presented with trade-offs (not just "hire someone")
+- Impact of inaction framed in business terms (delayed releases, risk, burnout)
+- Recommendation
+- Conversation structure for leadership meeting
+
+**Follow-Up Actions:**
+- Schedule meeting with your manager and relevant stakeholders
+- Bring capacity data and queue visualisation
+- Get a decision, not just acknowledgement
+- Follow up in writing
+
+---
+
 ## Related Prompt Banks
 
 - [Leadership Prompts](leadership-prompts.md) - Feedback, performance, coaching
