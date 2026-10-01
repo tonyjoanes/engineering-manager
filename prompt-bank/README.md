@@ -63,6 +63,14 @@ Platform engineering and DevOps:
 - Azure platform design
 - Team Topologies implementation
 
+### [AI Engineering & Metrics Prompts](ai-engineering-prompts.md)
+Leading AI-assisted teams and measuring productivity:
+- AI readiness assessment
+- Team AI working agreement
+- AI review load and over-reliance
+- Measuring AI impact for leadership
+- DORA team profile diagnosis
+
 ### [Hiring & Onboarding Prompts](hiring-prompts.md)
 Talent acquisition and onboarding:
 - Writing job descriptions
@@ -117,6 +125,10 @@ Effective delegation:
 **"I'm overwhelmed with requests..."** → [Strategic Prompts: Saying No](strategic-prompts.md#saying-no)
 
 **"Squads ask when their work will get done..."** → [Platform Prompts: Team Capacity Planning](platform-prompts.md#team-capacity-planning)
+
+**"How do we roll out AI coding agents well?"** → [AI Engineering Prompts: AI Readiness](ai-engineering-prompts.md#ai-readiness-assessment)
+
+**"Leadership wants to know what AI is giving us..."** → [AI Engineering Prompts: Measuring AI Impact](ai-engineering-prompts.md#measuring-ai-impact-for-leadership)
 
 **"My team is overloaded and I need more headcount..."** → [Platform Prompts: Capacity Overload Escalation](platform-prompts.md#capacity-overload-escalation)
 

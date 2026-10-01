@@ -26,6 +26,8 @@ Curated books, videos, articles, and courses
 
 ### 🛠️ [Practices](./practices/README.md)
 Practical approaches and playbooks
+- AI-assisted engineering
+- Developer productivity metrics (DORA, DevEx, DX Core 4)
 - Incident management
 - Project planning
 - Technical decision-making
@@ -36,6 +38,7 @@ Ready-to-use prompts that leverage this knowledge base
 - Leadership scenarios (feedback, performance, conflict)
 - One-on-one conversations (career, performance, support)
 - Team building (health, retrospectives, psychological safety)
+- AI engineering & metrics (AI readiness, review load, measuring impact)
 - Platform & DevOps (platform decisions, career development, Team Topologies)
 - Strategic planning (prioritization, stakeholder management, roadmaps)
 
@@ -43,9 +46,10 @@ Ready-to-use prompts that leverage this knowledge base
 - [Giving difficult feedback](./prompt-bank/leadership-prompts.md#difficult-feedback)
 - [Career development conversations](./prompt-bank/one-on-one-prompts.md#career-conversation-11)
 - [Platform capability decisions](./prompt-bank/platform-prompts.md#platform-capability-decision)
+- [Assessing AI readiness](./prompt-bank/ai-engineering-prompts.md#ai-readiness-assessment)
 - [Prioritization decisions](./prompt-bank/strategic-prompts.md#prioritization-decision)
 - [Team health assessment](./prompt-bank/team-prompts.md#team-health-assessment)
 
 ---
 
-*Last updated: 2026-02-17*
+*Last updated: 2026-10-01*

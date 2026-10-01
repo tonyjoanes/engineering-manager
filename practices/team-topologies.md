@@ -60,7 +60,8 @@ Teams have a **finite capacity** for information and complexity. Exceeding this 
 **Success Metrics:**
 - Deployment frequency
 - Lead time for changes
-- Mean time to recovery
+- Failed deployment recovery time
+- Change fail rate and rework rate
 - Customer satisfaction with their features
 
 **Cognitive Load Management:**
@@ -729,7 +730,7 @@ From your DevOps career ladder work, here's how DevOps skills map to Team Topolo
 - Build out full platform roadmap
 
 **Measure:**
-- DORA metrics per team
+- DORA metrics per team (five metrics - see [Developer Productivity Metrics](developer-productivity-metrics.md))
 - Platform adoption rates
 - Developer satisfaction scores
 - Cognitive load reduction
@@ -743,8 +744,9 @@ From your DevOps career ladder work, here's how DevOps skills map to Team Topolo
 **Stream-Aligned Teams:**
 - Deployment frequency (weekly → daily)
 - Lead time for changes (days → hours)
-- Mean time to recovery (< 1 hour)
-- Change failure rate (< 15%)
+- Failed deployment recovery time (< 1 hour)
+- Change fail rate (< 15%)
+- Deployment rework rate (trending down)
 - Team satisfaction scores
 
 **Platform Team:**
