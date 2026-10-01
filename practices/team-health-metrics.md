@@ -122,17 +122,16 @@ How the team is developing
 
 **What it measures:** How often you ship to production
 
-**Benchmarks (DORA metrics):**
-- Elite: Multiple times per day
-- High: Once per day to once per week
-- Medium: Once per week to once per month
-- Low: Less than once per month
+**Rough orientation (DORA):**
+- Strong teams: on demand, often multiple times per day
+- Struggling teams: less than once per month
+- Focus on your own trend - see [Developer Productivity Metrics](./developer-productivity-metrics.md#what-about-benchmarks)
 
 **Why it matters:**
 - Faster feedback
 - Smaller changes (less risk)
 - More agile
-- Better MTTR (Mean Time To Recovery)
+- Faster failed deployment recovery
 
 **How to improve:**
 - Automate deployment
@@ -150,11 +149,9 @@ How the team is developing
 (Failed deployments / Total deployments) × 100
 ```
 
-**Benchmarks:**
-- Elite: 0-15%
-- High: 16-30%
-- Medium: 31-45%
-- Low: >45%
+**Rough orientation (DORA):**
+- Strong teams: low single digits to ~15%
+- Struggling teams: 40%+
 
 **What counts as failure:**
 - Rollback required
@@ -168,6 +165,40 @@ How the team is developing
 - Automated tests
 - Code review quality
 - Feature flags (test in production safely)
+
+### Deployment Rework Rate
+
+**What it measures:** Share of deployments that are unplanned fixes for production incidents (DORA's fifth metric, added 2024)
+
+**Calculate:**
+```
+(Unplanned deployments caused by production incidents / Total deployments) × 100
+```
+
+**Why it matters:**
+- Shows how much delivery capacity goes on cleaning up
+- Stops high deployment frequency hiding a fix-the-fix treadmill
+- Early warning when speeding up (e.g. with AI tools) is borrowing from quality
+
+**How to track:**
+- Tag hotfix pipeline runs, or use a dedicated hotfix pipeline
+- Link deployments to incident tickets
+
+### Failed Deployment Recovery Time
+
+**What it measures:** How long it takes to recover when a deployment causes a failure (replaces DORA's old "MTTR")
+
+**Rough orientation:**
+- Strong teams: under an hour
+- Struggling teams: more than a week
+
+**How to improve:**
+- One-click rollback
+- Feature flags to switch off bad changes
+- Progressive delivery (canary, ring-based)
+- Good observability to detect issues fast
+
+> **DORA in 2026:** five metrics - change lead time, deployment frequency, failed deployment recovery time (throughput) and change fail rate, rework rate (instability). See [Developer Productivity Metrics](./developer-productivity-metrics.md) for the full model, the 2025 team profiles, and the DX Core 4.
 
 ## Quality Metrics
 
@@ -686,6 +717,8 @@ Collecting data but never using it
 - [ ] "Measuring and Managing Performance in Organizations" by Robert Austin
 - [ ] State of DevOps Reports (annual, free)
 - [ ] SPACE framework (developer productivity metrics)
+- [ ] DORA 2025 State of AI-assisted Software Development (team profiles)
+- [ ] DX Core 4 (getdx.com)
 
 ---
 

@@ -17,7 +17,7 @@ Ready-to-use prompts for team dynamics, health, and performance.
 I want to assess the health of [team name].
 
 Observable signals:
-- DORA metrics: [deployment frequency, lead time, MTTR, change failure rate]
+- DORA metrics: [change lead time, deployment frequency, failed deployment recovery time, change fail rate, rework rate]
 - Team dynamics: [collaboration quality, conflicts, morale]
 - Recent retrospective themes: [common topics or complaints]
 - Attrition: [recent departures or risk]
@@ -31,7 +31,7 @@ Help me:
 4. Prioritize improvement areas
 5. Create action plan for top 3 issues
 
-Reference the team health metrics guide for frameworks (DORA, SPACE) and psychological safety guide.
+Reference the team health metrics and developer productivity metrics guides for frameworks (DORA, SPACE, DevEx, DX Core 4) and psychological safety guide.
 ```
 
 **Expected Output:**
@@ -510,6 +510,7 @@ Reference psychological safety guide for norm-setting and remote teams guide for
 
 ## Related Prompt Banks
 
+- [AI Engineering & Metrics Prompts](ai-engineering-prompts.md) - AI adoption and productivity measurement
 - [Leadership Prompts](leadership-prompts.md) - Feedback, conflict, performance
 - [One-on-One Prompts](one-on-one-prompts.md) - Individual coaching
 - [Platform Prompts](platform-prompts.md) - Platform and DevOps topics

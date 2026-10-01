@@ -381,7 +381,7 @@ A comprehensive guide to help DevOps engineers understand what they need to do t
 - Industry impact (talks, posts, etc.)
 
 **Goals:**
-- Move org to "High" or "Elite" DORA
+- Org-wide DORA throughput up with change fail and rework rates stable or falling
 - 80%+ platform adoption
 - 50% reduction in critical incidents
 - Complete multi-quarter strategic initiatives

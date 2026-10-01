@@ -2,6 +2,12 @@
 
 Practical playbooks and approaches for common engineering management scenarios.
 
+## AI & Engineering Effectiveness
+
+- [AI-Assisted Engineering](./ai-assisted-engineering.md)
+- [Developer Productivity Metrics](./developer-productivity-metrics.md) (DORA, DevEx, SPACE, DX Core 4)
+- [Team Health Metrics](./team-health-metrics.md)
+
 ## Operational Practices
 
 - [Incident Management](./incident-management.md)

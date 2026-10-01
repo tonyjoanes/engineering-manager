@@ -242,7 +242,7 @@ Product teams are complaining about [specific DevEx issue, e.g., "slow CI/CD pip
 
 Data:
 - Specific complaints: [quotes from developers]
-- DORA metrics: [deployment frequency, lead time, MTTR, change failure rate]
+- DORA metrics: [change lead time, deployment frequency, failed deployment recovery time, change fail rate, rework rate]
 - Time spent on toil: [estimate percentage]
 - Platform adoption: [what % use platform services]
 - Recent developer survey results: [if available]
@@ -254,7 +254,7 @@ Help me:
 4. Create improvement roadmap
 5. Set metrics to track improvement
 
-Reference the platform engineering & DevEx guide for DORA metrics and SPACE framework.
+Reference the platform engineering & DevEx and developer productivity metrics guides for DORA, SPACE, DevEx and DX Core 4.
 ```
 
 **Expected Output:**
@@ -650,6 +650,7 @@ Help me prepare for this escalation conversation using the capacity planning gui
 
 ## Related Prompt Banks
 
+- [AI Engineering & Metrics Prompts](ai-engineering-prompts.md) - AI adoption and productivity measurement
 - [Leadership Prompts](leadership-prompts.md) - Feedback, performance, coaching
 - [Team Prompts](team-prompts.md) - Team health and dynamics
 - [Technical Prompts](technical-prompts.md) - Technical decisions and architecture

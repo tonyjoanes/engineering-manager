@@ -266,35 +266,22 @@ Good Platform → Good DevEx → Happy Developers
 
 ### DORA Metrics (DevOps Research & Assessment)
 
-**Four key metrics:**
+DORA now uses **five metrics** in two groups (updated 2024):
 
-**1. Deployment Frequency**
-- How often shipping to production?
-- Elite: Multiple times per day
-- High: Once per day to once per week
-- Medium: Once per week to once per month
-- Low: Less than once per month
+**Throughput:**
+- **Change lead time** - commit to running in production
+- **Deployment frequency** - how often you deploy to production
+- **Failed deployment recovery time** - how fast you recover from a bad deploy (replaces the old MTTR)
 
-**2. Lead Time for Changes**
-- Code commit to production
-- Elite: Less than 1 hour
-- High: 1 day to 1 week
-- Medium: 1 week to 1 month
-- Low: More than 1 month
+**Instability:**
+- **Change fail rate** - % of deploys needing immediate intervention
+- **Deployment rework rate** - % of deploys that are unplanned fixes for production incidents
 
-**3. Mean Time to Recovery (MTTR)**
-- How long to restore service?
-- Elite: Less than 1 hour
-- High: Less than 1 day
-- Medium: 1 day to 1 week
-- Low: More than 1 week
+Speed and stability move together: the best teams are both fast and stable. The old Elite/High/Medium/Low tiers have been retired in favour of seven team profiles (2025) that also cover well-being and friction.
 
-**4. Change Failure Rate**
-- What % of changes fail?
-- Elite: 0-15%
-- High: 16-30%
-- Medium: 31-45%
-- Low: More than 45%
+**Platform lens:** a good platform shows up as shorter lead times and faster recovery across *all* teams that use it, without rising change fail or rework rates.
+
+See [Developer Productivity Metrics](./developer-productivity-metrics.md) for definitions, rough benchmarks, the 2025 team profiles and how to measure them.
 
 ### SPACE Framework (Developer Productivity)
 
@@ -330,6 +317,16 @@ Good Platform → Good DevEx → Happy Developers
 - Blockers
 
 **Don't measure just one dimension - use holistically**
+
+### DX Core 4
+
+The DX Core 4 combines DORA, SPACE and DevEx into four dimensions that work for both engineers and executives:
+- **Speed** - PRs per engineer (team level only), lead time
+- **Effectiveness** - Developer Experience Index (survey)
+- **Quality** - change fail rate, recovery time
+- **Impact** - % of time spent on new capabilities
+
+Useful when leadership wants one view of platform and engineering productivity. See [Developer Productivity Metrics](./developer-productivity-metrics.md#dx-core-4-putting-it-together).
 
 ### DevEx Specific Metrics
 
@@ -624,7 +621,7 @@ Good Platform → Good DevEx → Happy Developers
 - Reduce deployment time by 50%
 - 90% platform adoption
 - Developer satisfaction >4/5
-- MTTR under 1 hour
+- Failed deployment recovery time under 1 hour
 - 80% self-service (no tickets)
 
 **Bad goals:**
@@ -785,13 +782,15 @@ Good Platform → Good DevEx → Happy Developers
 ## Resources
 
 ### Books
-- [ ] "Team Topologies" by Matthew Skelton & Manuel Pais
+- [ ] "Team Topologies" by Matthew Skelton & Manuel Pais (2nd edition, 2025)
+- [ ] "Frictionless" by Nicole Forsgren & Abi Noda (2025)
 - [ ] "The DevOps Handbook" by Gene Kim et al.
 - [ ] "Accelerate" by Nicole Forsgren, Jez Humble, Gene Kim
 - [ ] "Platform Engineering on Kubernetes" by Mauricio Salatino
 
 ### Reports & Research
-- [ ] DORA State of DevOps Reports (annual, free)
+- [ ] DORA State of DevOps Reports (annual, free) - 2025 edition focuses on AI-assisted development
+- [ ] DX Core 4 (getdx.com)
 - [ ] "An Engineering Organization's Guide to Developer Experience" (Atlassian)
 - [ ] "DevEx: What Actually Drives Productivity" (ACM Queue)
 - [ ] Gartner reports on Platform Engineering
