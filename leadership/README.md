@@ -4,6 +4,9 @@ Resources and frameworks for effective engineering leadership.
 
 ## Frameworks
 
+### [High-Output 1:1 (60-Minute Framework)](./high-output-one-on-ones.md)
+Structured hour to move from status updates to unblocking: Context Shift, Friction Audit, Lead Domino, Co-Working, Power Flip
+
 ### [GROW Model](./grow-model.md)
 Coaching framework for structured conversations and development
 

@@ -24,6 +24,7 @@ Practical playbooks and approaches for common engineering management scenarios.
 
 - [Stand-ups](./standups.md)
 - [Retrospectives](./retrospectives.md)
+- [Team Unblock Session](./team-unblock-session.md) (60-minute team reset)
 - [Team Building](./team-building.md)
 
 ## Technical Practices

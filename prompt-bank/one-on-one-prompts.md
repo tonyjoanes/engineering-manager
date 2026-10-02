@@ -551,6 +551,51 @@ Be supportive while respecting boundaries.
 
 ---
 
+## High-Output 1:1 Preparation
+
+**When to Use:** Preparing a 60-minute high-output 1:1 for someone who's stuck, overloaded or losing momentum.
+
+**Related Resources:**
+- [High-Output 1:1](../leadership/high-output-one-on-ones.md)
+- [One-on-One Meetings](../leadership/one-on-ones.md)
+- [GROW Model](../leadership/grow-model.md)
+
+**The Prompt:**
+```
+I'm running a 60-minute high-output 1:1 with [name, role, level].
+
+Context:
+- What they're working on: [projects, tasks]
+- Signals I've noticed: [e.g. work slipping, seems stretched, quiet in meetings]
+- Known friction: [blockers, dependencies, process issues I'm aware of]
+- Their priorities as I understand them: [list]
+- Last 1:1 actions (mine and theirs): [status]
+- Last feedback they gave me: [if any]
+
+Help me prepare each phase:
+1. Context Shift: an opening question that fits our relationship
+2. Friction Audit: specific probes across process, people, tools and clarity
+3. Lead Domino: what I think the domino might be, and questions to help them choose
+4. Co-Working Block: what we could usefully work on together, and how I stay in the navigator role
+5. Power Flip: a feedback question I haven't used recently, and what they might raise
+
+Also flag anything that means I should switch to a different conversation (burnout, performance, personal).
+
+Reference the high-output 1:1 guide.
+```
+
+**Expected Output:**
+- Tailored scripts for each phase
+- Likely friction and domino candidates
+- Risks or signals to watch
+
+**Follow-Up Actions:**
+- Send them a heads-up to bring one thing to work on together
+- Record actions in the shared 1:1 doc
+- Close the loop on your Power Flip commitment next time
+
+---
+
 ## Related Prompt Banks
 
 - [Leadership Prompts](leadership-prompts.md) - Feedback, performance, difficult conversations

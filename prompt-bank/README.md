@@ -116,6 +116,10 @@ Effective delegation:
 
 **"How do I structure this 1:1?"** → [One-on-One Prompts](one-on-one-prompts.md)
 
+**"Someone's stuck and our 1:1s are just status updates..."** → [One-on-One Prompts: High-Output 1:1](one-on-one-prompts.md#high-output-11-preparation)
+
+**"My team is busy but nothing finishes..."** → [Team Prompts: Team Unblock Session](team-prompts.md#team-unblock-session-design)
+
 **"Someone is underperforming..."** → [Leadership Prompts: Underperformance](leadership-prompts.md#underperformance)
 
 **"I need to make a technical decision..."** → [Technical Prompts: Decision Framework](technical-prompts.md#technical-decisions)

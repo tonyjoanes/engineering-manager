@@ -142,6 +142,11 @@ When a team member brings up a challenge, use the [GROW model](./grow-model.md):
 - Length: 45-60 minutes
 - More structured, use specific frameworks
 
+### High-Output 1:1s
+- Focus: Unblocking - load, friction, one key task, feedback on you
+- Length: 60 minutes (30-minute version available)
+- Monthly or when someone is stuck - see [High-Output 1:1](./high-output-one-on-ones.md)
+
 ### Skip-Level 1:1s
 - Focus: Broader perspective, team health
 - Be clear you won't break manager's trust

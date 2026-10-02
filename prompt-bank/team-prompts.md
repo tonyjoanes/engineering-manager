@@ -508,6 +508,50 @@ Reference psychological safety guide for norm-setting and remote teams guide for
 
 ---
 
+## Team Unblock Session Design
+
+**When to Use:** The team feels busy but stuck, the same friction keeps coming up in 1:1s, or you need a mid-sprint reset.
+
+**Related Resources:**
+- [Team Unblock Session](../practices/team-unblock-session.md)
+- [High-Output 1:1](../leadership/high-output-one-on-ones.md)
+- [Retrospectives](../practices/retrospectives.md)
+
+**The Prompt:**
+```
+I want to run a 60-minute team unblock session for [team name, size, remote/hybrid/in-person].
+
+Context:
+- Why now: [symptoms, e.g. "lots in progress, little finishing"]
+- Friction themes from 1:1s (anonymised): [list]
+- Work in flight: [main items, how long in progress]
+- Data: [WIP, blocked items, PR wait times, DORA trends]
+- Team trust level: [high / medium / low - affects how open the Power Flip can be]
+- Last session's actions: [if any, and status]
+
+Help me:
+1. Plan the Load Check (format and how to follow up on high-load individuals)
+2. Facilitate the Friction Audit (exercise, clustering, bucketing)
+3. Suggest likely Lead Domino candidates and how the team can choose
+4. Design the Swarm Block (mob, split-and-swarm, decision sprint, or review blitz)
+5. Run the Power Flip safely for our trust level
+6. Write the follow-up summary and stakeholder message
+
+Reference the team unblock session guide.
+```
+
+**Expected Output:**
+- Facilitation plan with timings
+- Exercise and tool choices
+- Follow-up and communication plan
+
+**Follow-Up Actions:**
+- Share purpose with the team beforehand
+- Post summary within 24 hours
+- Review actions at the next session
+
+---
+
 ## Related Prompt Banks
 
 - [AI Engineering & Metrics Prompts](ai-engineering-prompts.md) - AI adoption and productivity measurement

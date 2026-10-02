@@ -10,6 +10,7 @@ Models, frameworks, and approaches for effective leadership
 - Coaching techniques
 - Feedback frameworks
 - 1-on-1 best practices
+- High-output 1:1 (60-minute framework)
 
 ### 🧠 [Heuristics](./heuristics/README.md)
 Decision-making principles and rules of thumb I've found valuable
@@ -44,6 +45,8 @@ Ready-to-use prompts that leverage this knowledge base
 
 **Quick access to common scenarios:**
 - [Giving difficult feedback](./prompt-bank/leadership-prompts.md#difficult-feedback)
+- [Running a high-output 1:1](./leadership/high-output-one-on-ones.md)
+- [Unblocking a stuck team](./practices/team-unblock-session.md)
 - [Career development conversations](./prompt-bank/one-on-one-prompts.md#career-conversation-11)
 - [Platform capability decisions](./prompt-bank/platform-prompts.md#platform-capability-decision)
 - [Assessing AI readiness](./prompt-bank/ai-engineering-prompts.md#ai-readiness-assessment)
@@ -52,4 +55,4 @@ Ready-to-use prompts that leverage this knowledge base
 
 ---
 
-*Last updated: 2026-10-01*
+*Last updated: 2026-10-02*
